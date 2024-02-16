@@ -1,0 +1,32 @@
+Trees
+
+Terminology : 1 Root(Topmost node)
+              2 Parent(Node which connects to the child)
+              3 Child(Node which is connected by another node is its child)
+              4 Leaf/External node(Does not connect to any other node i.e which cant become parent or the node having no children)
+              5 Internal node: Nodes with atleast ome child.
+
+Depth of the node: Number of edges from root to that node. For eg ,the depth of root node will be 0.
+Height of the node: Number of edges from node to the deepest leaf.
+Sibling : Nodes belonging to the same parent.
+
+Binary Tree: The degree of node is 2 or less than 2.
+Binary tree is a tree which has atmost 2 children for all the nodes.
+1 Tree is made up of nodes and edges.
+2 n nodes= n-1 edges.
+3 Degree = No of direct children(for a node).
+4 Degree of a tree is the highest degree of the node amaong all the nodes present in the tree.
+5 Binary tree = Tree of degree <=2 and nodes can have 0,1 or 2 children.
+
+TYPES OF BINARY TREES
+Tree is a non linear data structure.
+1 Full or strict binary tree : All nodes have either o or 2 children.
+
+2 Perfect binary tree : Internal nodes have 2 children and all leaf leaf nodes are on same level.
+
+3 Complete binary tree : All levels are completely filled except possibly the last level
+plus last level must have its keys as left as possible.
+
+4 Degenerate tree :Every parent node has exactly one child.
+
+5 Skewed Trees : Left skewed(all childrens are towards the left) and Right skewed trees(all chidrens are towards thr right).
