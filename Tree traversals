@@ -1,0 +1,19 @@
+TRAVERSAL IN A BINARY TREE
+
+Traversal means to visit each and every node.
+
+Linear Data Structure : Front to rear
+                        Rear to front
+
+Non Linear Data Structure : Can have number of ways.
+
+There are mainly three types of traversals in a binary tree
+
+1. Preorder       2. Postorder      3. Inorder
+
+Preorder traversal : Root-> Left subtree -> Right subtree
+
+Postorder traversal : Left subtree-> Right Subtree -> Root
+
+Inorder traversal : Left subtree-> root -> Right Subtree
+
