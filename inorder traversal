@@ -1,0 +1,23 @@
+Inorder Traversal
+
+Left-> root-> right
+
+       4
+    /     \
+    1     6
+   /\
+  5  2
+ 
+Postorder traversal = 5 1 2 4 6
+
+void inorder(struct node*root)
+{
+  if(root!=null){
+  inorder(root->left);
+  printf("%d",root->data);
+  inorder(root->right);
+  
+}
+}
+
+ 
