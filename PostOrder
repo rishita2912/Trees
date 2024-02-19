@@ -1,0 +1,60 @@
+Postorder Traversal
+
+Left-> right-> root
+
+       4
+    /     \
+    1     6
+   /\
+  5  2
+ 
+Postorder traversal = 5 2 1 6 4
+
+void postorder(node*root)
+{
+  if(root!=null){
+  postorder(root->left);
+  postorder(root->right);
+  printf("%d",root->data);
+}
+
+ C program for postOrder
+
+#include <stdio.h>
+#include<stdio.h>
+#include<malloc.h>
+
+struct node{
+  int data;
+  struct node*left;
+  struct node*right;
+ };
+
+struct node*createNode(int data){
+  struct node*n;
+  n = (struct node*)malloc(sizeof(struct node));
+  n->data = data;
+  n->left = NULL;
+  n->right = NULL;
+  return n;
+}
+
+void postOrder(struct node*root)
+{
+   if(root!=NULL){
+     postOrder(root->left);
+     postOrder(root->right);
+     printf("%d",root->data);
+ }
+
+int main()
+{
+  struct node *p = createNode(4);
+  struct node*p = createNode(1);
+  struct node*p = createNode(6);
+  struct node*p = createNode(5);
+  struct node*p = createNode(2);
+  postOrder(p);
+
+ return 0;
+}
