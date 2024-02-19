@@ -1,0 +1,35 @@
+Trick to sind inorder, preorder and postorder traversal
+
+Preorder Traversal :Draw line from left side
+
+              - 7
+               /\
+           -  2 - 1       7 2 0 4 1 -> Preorder Traversal
+             /\
+          - 0  -4        
+
+Postorder Traversal: Draw line from right side
+  
+                7-
+               /\
+              2- 1-        0 4  2 1 7 ->Postorder Traversal
+              /\
+             0- 4-
+
+Inorder Traversal: 0 2 4 7 1
+     
+             
+ Draw line towards downwards and then intersect
+
+
+Binary Search Tree: It is a type of binary tree.
+
+Properties:
+
+1.All nodes of left subtree are lesser.
+2.All nodes of the right subtree are greater.
+3.Left and right subtrees are also binary search trees.
+4.There are no duplicate nodes.
+Inorder traversal of a BST gives an ascending sorted array.
+
+
