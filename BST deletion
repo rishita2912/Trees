@@ -1,0 +1,4 @@
+Deleting a node in a BST
+
+step 1 : Search the node
+step 2 : Delete the node
