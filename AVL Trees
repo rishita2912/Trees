@@ -1,0 +1,21 @@
+                             AVL Trees
+
+Almost all the operations in a binary search tree are of order O(h)
+where h is the height of the tree.
+
+If we don't plan our tree properly this height can get as high as n where
+n is the number of nides in a BST(skewed tree)
+
+To guarentee an upper bound of O(log n) for all these operations we can
+use balanced trees.
+
+Height balanced binary search trees. Height difference between heights of left
+and right subtrees fir every node is less than or equal to 1.
+
+Balanced factor = Height of right subtree - Height of left subtree
+
+Can be -1, 0 or 1 for a node to be balanced in a Binary Search Tree.
+
+Can be -1, 0 or 1 for all nodes of an AVL tree.
+
+
